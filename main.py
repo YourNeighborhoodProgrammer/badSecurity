@@ -13,6 +13,6 @@ def scrape_website(url):
 
 
 for i in dosSent:
-    scrape_website('https://footprintsschool.edu.kh')
+    scrape_website(REPLACE_WITH_TARGET)
     print(i)
 print("operation complete")
